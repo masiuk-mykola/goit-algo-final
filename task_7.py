@@ -66,7 +66,3 @@ plt.title(f"Probabilities of sums when rolling two dice ({trials:,} of simulatio
 plt.legend()
 plt.grid(axis="y", linestyle="--", alpha=0.7)
 plt.show()
-
-print(
-    "На графіку видно, що емпіричні ймовірності з Монте-Карло практично збігаються з аналітичними."
-)
