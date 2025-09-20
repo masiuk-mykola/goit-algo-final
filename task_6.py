@@ -41,7 +41,6 @@ def dynamic_programming(items, budget):
             else:
                 dp[i][w] = dp[i - 1][w]
 
-    # Відновлення обраних предметів
     chosen = []
     w = budget
     for i in range(n, 0, -1):
